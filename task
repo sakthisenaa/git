@@ -1,0 +1,76 @@
+console.log("java script")
+// variables
+var fruit;
+fruit="apple"
+let frut="banana"
+const num=1,num2=2,num3=3
+console.log(fruit,frut,num,num2,num3)
+// re declere
+//let veg="potato"
+//let veg="tomato" // can't accept
+//console.log(veg)
+
+// const veg="potato"
+// const veg ="tomato"
+// con't accept
+var veg ="potato"
+var veg="tomato"
+console.log(veg)// accept redelaration
+
+//re assign
+let vegies ="carrot"
+vegies = "beans"
+console.log(vegies) // accept reasign
+
+// const doesnot accept re assign
+ 
+var vegtables ="cabbage"
+vegtables="ladies finger"
+console.log(vegtables)// accept both re assign and re delaration
+
+
+// data types
+//premitive datatypes
+// string
+
+let str="javascript"
+console.log(str, typeof(str))
+
+// number
+let numnu=12,numnum=12.5
+console.log(numnu,typeof(numnu))
+console.log(numnum,typeof(numnum))
+// bigint
+let bint=123457874n
+console.log(bint,typeof(bint))
+//boolean
+let bool=true
+console.log(bool,typeof(bool))
+//undefined
+let un
+console.log(typeof(un))
+//null
+let dummy=null
+console.log(dummy,typeof(dummy))// type is object because indexing 000
+// non primitive datatype
+//array
+let arr=["apple",2,true,"orange"]
+console.log(arr,typeof(arr))
+//object
+let obj={
+    name:"shalini",
+    age:5,
+    native:"namakkal"
+
+}
+console.log(obj,typeof(obj))
+//functions
+function basic(){
+    console.log("hello world")
+
+}
+basic()
+console.log(typeof(basic))
+
+//
+
